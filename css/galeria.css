@@ -1,0 +1,71 @@
+* {
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0;
+    text-align: center;
+}
+
+/*Columna de la izquierda*/
+.columna_izq{
+    position: absolute;
+    float:center;
+    margin-top: 1%;
+    width:12%;
+    margin-left: 13%;
+}
+
+
+#galeria_mini{
+    margin: 0;
+}
+
+#general{
+    width: 100%;
+}
+
+img.img_pequeña{
+    width: 7vw;
+    margin-left: 0px;
+}
+
+img.imagen_grande{
+    width: 50vw;
+}
+
+.miniatura{
+    display: flex;
+}
+
+.maxi{
+    display: none;
+    position: absolute;
+    margin-left:100%;
+}
+
+div div div#pikachu:hover div.pikachu{
+    display: inline-block;
+}
+
+div div div#eevee:hover div.eevee{
+    display: inline-block;
+}
+
+div div div#charmander:hover div.charmander{
+    display: inline-block;
+}
+
+div div div#piplup:hover div.piplup{
+    display: inline-block;
+}
+
+div div div#mew:hover div.mew{
+    display: inline-block;
+}
+
+div div div#parchirisu:hover div.parchirisu{
+    display: inline-block;
+}
+
+div div div#gible:hover div.gible{
+    display: inline-block;
+}
